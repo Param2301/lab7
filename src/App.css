@@ -36,3 +36,64 @@
     transform: rotate(360deg);
   }
 }
+
+/* MyForm.css */
+
+.container {
+  position: absolute;
+  height: 50vh;
+  width: 50vw;
+  top: 25vh;
+  left: 25vw;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  margin-bottom: 5px;
+  margin-right: 6px;
+}
+
+input,
+select {
+  padding: 10px;
+  width: 20vw;
+  margin-bottom: 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+span{
+  margin-right: 10px;
+  font-size: 20px;
+  border: 2px solid black;
+}
+
+button{
+  margin: 30px;
+}
+
